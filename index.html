@@ -6,8 +6,30 @@
     <link href="/src/output.css" rel="stylesheet">
     <title>Login</title>
 </head>
-<body class="bg-gradient-to-tl from-gray-950 to-zinc-900 w-screen h-screen m-10">
-    <h1 class="text-4xl text-white">Testando Tailwind!</h1>
-    <p class="text-white">Esse texto aqui é um paragrafo</p>
+<body class="bg-gradient-to-tl from-gray-900 to-zinc-800 w-screen h-screen flex justify-center items-center">
+    <section class="w-1/2 h-[600px] bg-zinc-950 rounded-3xl flex">
+        <section id="form" class="basis-5/12 bg-amber-700 flex flex-col">
+            <h1 class="text-3xl text-white">Login</h1>
+
+            <label>
+                email
+                <input id="email" type="email" />
+            </label>
+
+            <label>
+                senha
+                <input id="password" type="password"/>
+            </label>
+
+            <a href="#">Esqueci minha senha</a>
+
+            <button type="submit">Entrar</button>
+
+            <a href="#">Cadastrar</a>
+        </section>
+
+        <section id="picture" class="w-1/2"></section>
+
+    </section>
 </body>
 </html>
